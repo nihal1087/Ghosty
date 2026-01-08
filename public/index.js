@@ -38,6 +38,6 @@ document.querySelector(".cards-container").addEventListener("click", (e) => {
   button.textContent = isExpanded ? "Show less" : "Read in full"
 })
 
-document.querySelector(".logo-img").addEventListener("click",()=>{
+document.querySelector(".logo-img").addEventListener("click", () => {
   location.href = "/index.html"
 })
